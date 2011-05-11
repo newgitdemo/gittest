@@ -55,7 +55,9 @@ public class WelcomeServlet extends HttpServlet {
 		System.out.println(name);
 		String destination = "/jsp/result.jsp";
 		String destination1 = "/jsp/result.jsp";
-         String origin = "/jsp/result.jsp";        
+         String origin = "/jsp/result.jsp";       
+ String origin1 = "/jsp/result.jsp";        
+ 
 		try{
 
 		RequestDispatcher rd = getServletContext().getRequestDispatcher(destination);
